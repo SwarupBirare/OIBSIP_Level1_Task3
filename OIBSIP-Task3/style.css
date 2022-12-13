@@ -1,0 +1,56 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.main{
+    width: 100%;
+    background:url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+} 
+
+body {
+    background-color: skyblue;
+}
+
+.container {
+    width: 450px;
+    background-color: transperent;
+    padding: 70px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.input_box {
+    width: 50%;
+    margin-left: 95px;
+    margin-bottom: 42px;
+    color: blue;
+}
+
+label {
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px dashed red;
+    border-radius: 3px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border-radius: 9px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+}
+
